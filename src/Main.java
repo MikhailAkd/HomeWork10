@@ -9,7 +9,7 @@ public class Main {
         bookTwo.setYear(1843);
 
         System.out.println("Список книг: ");
-        System.out.println("Наименование: " + bookOne.getName() + ". Автор: " + bookOne.getAuthor().authorNameFull() + ". Год издания: " + bookOne.getYear());
-        System.out.println("Наименование: " + bookTwo.getName() + ". Автор: " + bookTwo.getAuthor().authorNameFull() + ". Год издания: " + bookTwo.getYear());
+        System.out.println(bookOne);
+        System.out.println(bookTwo);
     }
 }
